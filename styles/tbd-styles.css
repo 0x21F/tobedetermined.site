@@ -1,0 +1,67 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0;
+}
+.tbd-title {
+    font-weight: bold;
+    letter-spacing: 0.125em;
+}
+.tbd-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.125rem;
+}
+.tbd-navbar-items {
+    display: flex;
+    justify-content: space-around;
+}
+.tbd-navbar-items li {
+    list-style: none;
+    padding: 0.75em;
+}
+.tbd-title a,
+.tbd-navbar-items a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1em;
+    cursor: pointer;
+}
+.tbd-main {
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: repeat(2, 12.5%);
+    height: calc(100vh - 150px);
+}
+.tbd-login {
+    height: calc(100vh - 3.125rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tbd-login input, 
+.tbd-login button {
+    background: inherit;
+    color:inherit;
+    margin: 0;
+    border: 0;
+    height: 1.5em;
+}
+.tbd-login button {
+    cursor: pointer;
+}
+.tbd-login .tbd-err {
+    height: 10em;
+}
+.tbd-search {
+
+}
+.tbd-footer {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
